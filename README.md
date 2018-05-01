@@ -17,9 +17,9 @@ Download the programs as a zip and install `Jupyter Notebook`. Then run the `gen
 
 ### Potential example
 
-For the simplest potential case, that is, the harmonic potential, some of the obtained graphical results are:
+An good example is the double potential:
 
-![](http://gmegh.github.io/Quantum_PEF2/images/Harmonic.mp4)
+![](http://gmegh.github.io/Quantum_PEF2/images/DoubleWell.gif)
 
 
 ## Precision and Robustness
