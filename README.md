@@ -17,7 +17,7 @@ Download the programs as a zip and install `Jupyter Notebook`. Then run the `gen
 
 ### Potential example
 
-For the simplest potential case, that is, the harmonic potential, one of the obtained graphical results are
+For the simplest potential case, that is, the harmonic potential, some of the obtained graphical results are:
 
 
 ## Precision and Robustness
@@ -34,5 +34,5 @@ For instance, for *l* = 0 one of the obtained figures is the following,
 
 The angular wave-function is also obtained, in this case, through the analytic expression and is represented in a polar plot and 3D to show the shape of electron orbitals in H atom. This is done for an arbitrary value of the azimuthal quantum number *l* which is the input of the user to the program. For instance, for *l*=3, the orbitals plot which is obtained is:
 
-![](http://gmegh.github.io/Quantum_PEF2/images/orbital.png | width=100)
+![](http://gmegh.github.io/Quantum_PEF2/images/orbital.png)
 
