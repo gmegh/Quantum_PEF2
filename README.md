@@ -8,29 +8,31 @@ As for the numerical system precision, the method has been stressed to find out 
 
 This repository offers the open-source `python 2.7` programs to solve the Schrödinger equation under arbitrary potentials. It is designed to be implemented through `Jupiter Notebook`, to ease user's experience and facilitate working with arbitrary potentials.
 
-https://gmegh.github.io/quantumschrod/
+https://gmegh.github.io/Quantum_PEF2/
 
 
 ## Working with **Jupyter Notebook**
 
 Download the programs as a zip and install `Jupyter Notebook`. Then run the `general_potential.py` and introduce the arbitrary potential with which you want to work. Remind that the only block which has to be modified is the first one. Should you were to modify deeper code or other blocks, this may trigger malfunctions to the program.
 
+### Potential example
+
+For the simplest potential case, that is, the harmonic potential, one of the obtained graphical results are
+
 
 ## Precision and Robustness
-The Richardson method used in calculating the eigenvalues, ensures a rapid, robust and accurate results. Furthermore, the program has been numerically stressed out with different high-dificulty potentials, such as the Poschl-Teller modified potential,
+The Richardson method used in calculating the eigenvalues, ensures a rapid, robust and accurate results. Furthermore, the program has been numerically stressed out with different high-dificulty potentials, such as the Poschl-Teller modified potential. 
 
 ## Real-case applications
-### Ammonia molecule
-
 ### Hydrogen Atom
 Furthermore, it is also presented a real-case application, which allows to study the radial wave-function of the Hydrogen atom through the three-dimensional case. Choosing the azimuthal quantum number *l*, the user will obtain a plot of both: the radial wave-function and the radial probability density function for the first four eigenstates. 
 
 For instance, for *l* = 0 one of the obtained figures is the following, 
 
-![](http://gmegh.github.io/quantumschrod/images/radialwf.png)
+![](http://gmegh.github.io/Quantum_PEF2/images/radialwf.png)
 
 
 The angular wave-function is also obtained, in this case, through the analytic expression and is represented in a polar plot and 3D to show the shape of electron orbitals in H atom. This is done for an arbitrary value of the azimuthal quantum number *l* which is the input of the user to the program. For instance, for *l*=3, the orbitals plot which is obtained is:
 
-![](http://gmegh.github.io/quantumschrod/images/orbital.png | width=100)
+![](http://gmegh.github.io/Quantum_PEF2/images/orbital.png | width=100)
 
