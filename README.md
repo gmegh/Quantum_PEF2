@@ -1,6 +1,8 @@
 # A numerical approach to solving Schrödinger equation.
 
 Python programs to solve numerically the Schrödinger equation for an arbitrary potential in both: one-dimensional case and the radial component of the wave-function for the three-dimensional case.
+ https://gmegh.github.io/quantumschrod/
+ 
 
 This programs are designed to be runned in Jupyter notebook to ease user's experience and facilitate working with arbitrary potentials. It allows the user to obtain the eigenvalues, eigenstates and an animation of the temporal evolution of the probability density of a particle in such potential. 
 
