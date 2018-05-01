@@ -19,7 +19,7 @@ Download the programs as a zip and install `Jupyter Notebook`. Then run the `gen
 
 An good example is the double potential:
 
-![](http://gmegh.github.io/Quantum_PEF2/images/DoubleWell.gif)
+![Alt Text](http://gmegh.github.io/Quantum_PEF2/images/DoubleWell.gif)
 
 
 ## Precision and Robustness
