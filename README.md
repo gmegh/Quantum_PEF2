@@ -19,6 +19,7 @@ Download the programs as a zip and install `Jupyter Notebook`. Then run the `gen
 
 For the simplest potential case, that is, the harmonic potential, some of the obtained graphical results are:
 
+![](http://gmegh.github.io/Quantum_PEF2/images/Harmonic.mp4)
 
 
 ## Precision and Robustness
