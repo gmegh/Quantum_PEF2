@@ -11,7 +11,7 @@ This repository offers the open-source `python 2.7` programs to solve the Schrö
  https://gmegh.github.io/quantumschrod/
 
 
-## Working with `Jupyter Notebook`
+## Working with **Jupyter Notebook**
 
 Download the programs as a zip and install `Jupyter Notebook`. Then run the `general_potential.py` and introduce the arbitrary potential with which you want to work. Remind that the only block which has to be modified is the first one. Should you were to modify deeper code or other blocks, this may trigger malfunctions to the program.
 
@@ -23,7 +23,15 @@ The Richardson method used in calculating the eigenvalues, ensures a rapid, robu
 ### Ammonia molecule
 
 ### Hydrogen Atom
-Furthermore, it is also presented a real-case application, which allows to study the radial wave-fucntion of the Hydrogen atom, through the three-dimensional case. The angular wave-function is also obtained thorugh the analytic expression and is represented in a polar plot and 3D to show the shape of electron orbitals in H atom, for an arbitrary value of the azimuthal quantum number l. 
+Furthermore, it is also presented a real-case application, which allows to study the radial wave-function of the Hydrogen atom through the three-dimensional case. Choosing the azimuthal quantum number *l*, the user will obtain a plot of both: the radial wave-function and the radial probability density function for the first four eigenstates. 
+
+For instance, for *l* = 0 the obtained figures are the following, 
+![](http://gmegh.github.io/quantumschrod/images/radialwf.png)
+![](http://gmegh.github.io/quantumschrod/images/prob.png)
+
+
+
+The angular wave-function is also obtained through the analytic expression and is represented in a polar plot and 3D to show the shape of electron orbitals in H atom, for an arbitrary value of the azimuthal quantum number l. 
 
 
 
