@@ -3,7 +3,59 @@
 ## Solving the Schrödinger equation for your own potential. 
 This code has been developed to be run using `Jupyter Notebook`. To correctly run the code to solve the Schrödinger equation for 
 an arbitrary potential you choose you should open `general_main.ipynb` from the notebook. You will see there are some different blocks. 
-You should only modify the initial block which includes all the parameters to set the potential and other constant values. 
+You should only modify the initial block to set the potential and other constant values. Code comments are in catalan. 
+The initial block you are to find in the code is the following,
+
+~~~~
+#### Bloc de inputs
+# Nota: es necessari tenir instal.lat ffmpeg
+
+### Llibreries
+import numpy as np
+import matplotlib
+import matplotlib.pyplot as plt
+from matplotlib import animation
+import tridiagonal
+import trapezoidal
+import wavefunction
+
+### Inputs
+## Limits d'integracio
+rmin = -5.0
+rmax = 5.0
+## Trobar valors propis
+ninter1 = 5000
+error1 = 1e-8
+n1 = 1
+n2 = 4
+## Definim potencial
+def potencial(rmin,h,n):
+    v = np.zeros(n)
+    for i in xrange(1,n+1):
+        #v[i-1] = 15*((rmin + h*i)**2 -1)**2
+        #v[i-1] = (rmin + h*i)**4
+        if (i<int(n/3)):
+            v[i-1] = 10
+        elif (i>int(2*n/3)):
+            v[i-1] = 10
+        #v[i-1] = -17/((np.cosh(rmin + i*h))**2) 
+    return v
+## Wavefunction numerica
+ninter2 = 10000
+## Simulacio de l'evolucio temporal
+# Coeficients del primers eigenstates
+c0 = 1
+c1 = 1
+c2 = 1
+c3 = 0
+# Limits en el grafic
+xlim_e = -3
+xlim_d = 3
+ylimd = 12
+ylimb = 0
+# Frequencia de la simulacio
+w = 0.05
+~~~~
 
 ### Integration limits
 `rmin` and `rmax` correspond to the integration limits of the integration. You may have to change them depending on the potential 
@@ -37,5 +89,5 @@ You can access them freely and run them to obtain the results in question. Pleas
 In this case, the first block allows to modify the values of the quantic numbers to decide which probability density function is going to be obtained.
 **Please, DO NOT MODIFY other blocks than this first setting block.**
 
-3) The rest of the codes correspond to the different numerical methods used along all the applications developed. All of them are 
+3) The rest of the codes correspond to the different numerical methods used along all the applications developed. All of them have been
 accurately comented to ensure a good understanding of the codes for an external user in case it was to modify or change any section of it, 
