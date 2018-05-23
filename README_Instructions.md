@@ -62,7 +62,7 @@ w = 0.05
 you are working with.
 
 ### Defining the potential
-You should define the potential you want to use by using the original form but changin `x` to `x = rmin + h·i`. 
+You should define the potential you want to use by using the original form but changing `x` to `x = rmin + h·i`. 
 
 ### Eigenvalues
 You can determine the error and the number of iterations used to obtain the eigenvalues. As well you can determine which eigenvalues 
