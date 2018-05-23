@@ -8,20 +8,20 @@ As for the numerical system precision, the method has been stressed to find out 
 
 This repository offers the open-source `python 2.7` programs to solve the Schrödinger equation under arbitrary potentials. It is designed to be implemented through `Jupiter Notebook`, to ease user's experience and facilitate working with arbitrary potentials.
 
-https://gmegh.github.io/Quantum_PEF2/
+<https://gmegh.github.io/Quantum_PEF2/>
 
 
 ## Working with **Jupyter Notebook**
 
 Download the programs as a zip and install `Jupyter Notebook`. Then run the `general_main.ipynb` and introduce the arbitrary potential with which you want to work. Remind that the only block which has to be modified is the first one. Should you were to modify deeper code or other blocks, this may trigger malfunctions to the program. An mp4 file is produced with the temporal evolution. 
 
-For detailed instructions go to: `README_Instructions.md`
+**For detailed instructions go to: `README_Instructions.md`**
 
 ### Potential example
 
 An good example is the double potential:
 
-https://www.youtube.com/watch?v=m3_smsdw8Kk
+<https://www.youtube.com/watch?v=m3_smsdw8Kk>
 
 
 ## Precision and Robustness
