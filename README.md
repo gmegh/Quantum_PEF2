@@ -15,6 +15,8 @@ https://gmegh.github.io/Quantum_PEF2/
 
 Download the programs as a zip and install `Jupyter Notebook`. Then run the `general_main.ipynb` and introduce the arbitrary potential with which you want to work. Remind that the only block which has to be modified is the first one. Should you were to modify deeper code or other blocks, this may trigger malfunctions to the program. An mp4 file is produced with the temporal evolution. 
 
+For detailed instructions go to: 'README_Instructions.md'
+
 ### Potential example
 
 An good example is the double potential:
