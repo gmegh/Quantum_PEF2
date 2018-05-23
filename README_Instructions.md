@@ -32,12 +32,16 @@ n2 = 4
 def potencial(rmin,h,n):
     v = np.zeros(n)
     for i in xrange(1,n+1):
+        # Double-well potential
         #v[i-1] = 15*((rmin + h*i)**2 -1)**2
+        # Anharmonic potential
         #v[i-1] = (rmin + h*i)**4
+        # Square well potential
         if (i<int(n/3)):
             v[i-1] = 10
         elif (i>int(2*n/3)):
             v[i-1] = 10
+        # Modified Poschl-Teller
         #v[i-1] = -17/((np.cosh(rmin + i*h))**2) 
     return v
 ## Wavefunction numerica
@@ -63,7 +67,8 @@ you are working with.
 
 ### Defining the potential
 You should define the potential you want to use by using the original form but changing `x` to `x = rmin + h·i`. 
-
+Some example potentials (_Double-well, Anharmonic, Square well and Modified Poschl-Teller potential_) are already defined in a comment on the code.
+ 
 ### Eigenvalues
 You can determine the error and the number of iterations used to obtain the eigenvalues. As well you can determine which eigenvalues 
 should be found by setting the first eigenvalue `n1` you want to obtain and the last one `n2`.
